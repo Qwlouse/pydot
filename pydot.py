@@ -16,12 +16,7 @@ Copyright (c) 2005-2011 Ero Carrera <ero.carrera@gmail.com>
 
 Distributed under MIT license [http://opensource.org/licenses/mit-license.html].
 """
-
-__revision__ = "$LastChangedRevision$"
-__author__ = 'Ero Carrera'
-__version__ = '1.0.%d' % 29  # int( __revision__[21:-2] )
-__license__ = 'MIT'
-
+from __about__ import *
 import os
 import re
 import subprocess
